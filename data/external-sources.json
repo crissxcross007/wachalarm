@@ -1,0 +1,9 @@
+{
+  "lausitz": {
+    "source": "https://evilausitz.de/data/evi-kanalorte.json",
+    "fallbackNote": "Wenn der externe Abruf lokal oder durch CORS scheitert, nutzt die Karte die eingebauten Fallback-Daten aus dem bisherigen EVI-Kanalfinder."
+  },
+  "wachalarm": {
+    "source": "/data/wachalarm-kanalorte.json"
+  }
+}
