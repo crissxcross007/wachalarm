@@ -1,0 +1,138 @@
+{
+  "counties": [
+    {
+      "slug": "barnim",
+      "name": "Barnim",
+      "code": "BAR",
+      "leitstelle": "Leitstelle Nordost",
+      "orte": "Eberswalde, Bernau, Werneuchen, Wandlitz",
+      "url": "/landkreise/barnim.html",
+      "channel": "#"
+    },
+    {
+      "slug": "cottbus",
+      "name": "Cottbus",
+      "code": "CB",
+      "leitstelle": "Leitstelle Lausitz",
+      "orte": "kreisfreie Stadt Cottbus",
+      "url": "/landkreise/cottbus.html",
+      "channel": "#"
+    },
+    {
+      "slug": "dahme-spreewald",
+      "name": "Dahme-Spreewald",
+      "code": "LDS",
+      "leitstelle": "Leitstelle Lausitz",
+      "orte": "Königs Wusterhausen, Lübben, Luckau, Wildau",
+      "url": "/landkreise/dahme-spreewald.html",
+      "channel": "#"
+    },
+    {
+      "slug": "elbe-elster",
+      "name": "Elbe-Elster",
+      "code": "EE",
+      "leitstelle": "Leitstelle Lausitz",
+      "orte": "Finsterwalde, Herzberg, Elsterwerda, Bad Liebenwerda",
+      "url": "/landkreise/elbe-elster.html",
+      "channel": "#"
+    },
+    {
+      "slug": "oberhavel",
+      "name": "Oberhavel",
+      "code": "OHV",
+      "leitstelle": "Leitstelle Nordwest",
+      "orte": "Oranienburg, Hennigsdorf, Gransee, Zehdenick",
+      "url": "/landkreise/oberhavel.html",
+      "channel": "#"
+    },
+    {
+      "slug": "oberspreewald-lausitz",
+      "name": "Oberspreewald-Lausitz",
+      "code": "OSL",
+      "leitstelle": "Leitstelle Lausitz",
+      "orte": "Senftenberg, Lauchhammer, Lübbenau, Calau",
+      "url": "/landkreise/oberspreewald-lausitz.html",
+      "channel": "#"
+    },
+    {
+      "slug": "ostprignitz-ruppin",
+      "name": "Ostprignitz-Ruppin",
+      "code": "OPR",
+      "leitstelle": "Leitstelle Nordwest",
+      "orte": "Neuruppin, Wittstock/Dosse, Kyritz, Rheinsberg",
+      "url": "/landkreise/ostprignitz-ruppin.html",
+      "channel": "#"
+    },
+    {
+      "slug": "potsdam-mittelmark",
+      "name": "Potsdam-Mittelmark",
+      "code": "PM",
+      "leitstelle": "Leitstelle Brandenburg/Potsdam",
+      "orte": "Bad Belzig, Werder, Beelitz, Teltow",
+      "url": "/landkreise/potsdam-mittelmark.html",
+      "channel": "#"
+    },
+    {
+      "slug": "prignitz",
+      "name": "Prignitz",
+      "code": "PR",
+      "leitstelle": "Leitstelle Nordwest",
+      "orte": "Perleberg, Wittenberge, Pritzwalk, Karstädt",
+      "url": "/landkreise/prignitz.html",
+      "channel": "#"
+    },
+    {
+      "slug": "spree-neisse",
+      "name": "Spree-Neiße",
+      "code": "SPN",
+      "leitstelle": "Leitstelle Lausitz",
+      "orte": "Forst (Lausitz), Guben, Spremberg, Döbern, Peitz",
+      "url": "/landkreise/spree-neisse.html",
+      "channel": "#"
+    },
+    {
+      "slug": "teltow-flaeming",
+      "name": "Teltow-Fläming",
+      "code": "TF",
+      "leitstelle": "Leitstelle Brandenburg/Potsdam",
+      "orte": "Luckenwalde, Jüterbog, Zossen, Ludwigsfelde",
+      "url": "/landkreise/teltow-flaeming.html",
+      "channel": "#"
+    },
+    {
+      "slug": "uckermark",
+      "name": "Uckermark",
+      "code": "UM",
+      "leitstelle": "Leitstelle Nordost",
+      "orte": "Prenzlau, Schwedt/Oder, Angermünde, Templin",
+      "url": "/landkreise/uckermark.html",
+      "channel": "#"
+    }
+  ],
+  "leitstellen": [
+    {
+      "slug": "lausitz",
+      "name": "Leitstelle Lausitz",
+      "description": "Cottbus, Spree-Neiße, Dahme-Spreewald, Elbe-Elster und Oberspreewald-Lausitz",
+      "url": "/leitstellen/lausitz.html"
+    },
+    {
+      "slug": "brandenburg-potsdam",
+      "name": "Leitstelle Brandenburg/Potsdam",
+      "description": "Potsdam-Mittelmark, Teltow-Fläming und weitere Bereiche",
+      "url": "/leitstellen/brandenburg-potsdam.html"
+    },
+    {
+      "slug": "nordwest",
+      "name": "Leitstelle Nordwest",
+      "description": "Prignitz, Ostprignitz-Ruppin und Oberhavel",
+      "url": "/leitstellen/nordwest.html"
+    },
+    {
+      "slug": "nordost",
+      "name": "Leitstelle Nordost",
+      "description": "Barnim und Uckermark",
+      "url": "/leitstellen/nordost.html"
+    }
+  ]
+}
