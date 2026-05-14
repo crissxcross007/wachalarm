@@ -1,0 +1,216 @@
+
+/* =========================================================
+   Wachalarm – Mobile Karten-Fix
+   Datei zusätzlich NACH css/map.css einbinden:
+   <link rel="stylesheet" href="css/mobile-map-fix.css">
+========================================================= */
+
+/* Verhindert seitliches Überlaufen auf Mobilgeräten */
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Kartenbereich auf dieselbe Content-Breite wie Hero/Text bringen */
+.map-hero,
+.map-stage,
+.map-panel,
+.map-wrapper,
+.map-search-wrapper,
+.map-filter-wrapper,
+.results-wrapper,
+.channel-results {
+    width: min(100% - 32px, 1180px);
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+/* Falls die aktuelle Karte noch in einem Grid steckt: mobil auf eine Spalte zwingen */
+.map-layout,
+.map-content,
+.map-grid,
+.map-shell {
+    width: min(100% - 32px, 1180px);
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+/* Such-/Filterkarte */
+.map-panel,
+.map-search-wrapper {
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+/* Texte in der Suchbox dürfen nicht seitlich herauslaufen */
+.map-panel p,
+.map-search-wrapper p,
+.search-help,
+.map-help-text {
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+/* Suchfeld sauber begrenzen */
+#mapSearch,
+.map-search-box,
+.map-search input,
+input[type="search"] {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Filterbuttons horizontal scrollbar statt Seitenlayout zu sprengen */
+.map-filter-buttons,
+.filter-buttons,
+.region-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    padding-bottom: 8px;
+}
+
+.map-filter-buttons button,
+.filter-buttons button,
+.region-buttons button {
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
+/* Karte selbst */
+#map,
+.wachalarm-map,
+.map-container {
+    width: 100%;
+    max-width: 100%;
+    height: min(68vh, 680px);
+    min-height: 560px;
+    border-radius: 32px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* Leaflet darf nicht breiter werden als der Viewport */
+.leaflet-container {
+    max-width: 100%;
+}
+
+/* Ergebnisliste auf Kartenbreite */
+.results-wrapper,
+.channel-results {
+    box-sizing: border-box;
+}
+
+/* =========================================================
+   Mobile
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .map-hero,
+    .map-stage,
+    .map-panel,
+    .map-wrapper,
+    .map-search-wrapper,
+    .map-filter-wrapper,
+    .results-wrapper,
+    .channel-results,
+    .map-layout,
+    .map-content,
+    .map-grid,
+    .map-shell {
+        width: calc(100% - 28px);
+        max-width: calc(100% - 28px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .map-hero {
+        padding-top: 26px;
+    }
+
+    .map-hero h1 {
+        font-size: clamp(2.4rem, 12vw, 3.8rem);
+        line-height: 0.98;
+        letter-spacing: -0.055em;
+    }
+
+    .map-hero p {
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+
+    .map-panel,
+    .map-search-wrapper {
+        padding: 20px;
+        border-radius: 26px;
+    }
+
+    #map,
+    .wachalarm-map,
+    .map-container {
+        height: 58vh;
+        min-height: 430px;
+        max-height: 560px;
+        border-radius: 24px;
+    }
+
+    .leaflet-control-zoom {
+        transform: scale(0.92);
+        transform-origin: top left;
+    }
+
+    .leaflet-popup-content-wrapper {
+        max-width: calc(100vw - 56px);
+    }
+
+    .leaflet-popup-content {
+        max-width: calc(100vw - 88px);
+    }
+
+    .channel-card {
+        border-radius: 24px;
+        padding: 22px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .map-hero,
+    .map-stage,
+    .map-panel,
+    .map-wrapper,
+    .map-search-wrapper,
+    .map-filter-wrapper,
+    .results-wrapper,
+    .channel-results,
+    .map-layout,
+    .map-content,
+    .map-grid,
+    .map-shell {
+        width: calc(100% - 22px);
+        max-width: calc(100% - 22px);
+    }
+
+    #map,
+    .wachalarm-map,
+    .map-container {
+        height: 56vh;
+        min-height: 400px;
+    }
+
+    .map-panel,
+    .map-search-wrapper {
+        padding: 18px;
+    }
+}
