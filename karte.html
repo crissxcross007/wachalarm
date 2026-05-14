@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interaktive Wachalarm Karte – Feuerwehr WhatsApp Kanäle in Brandenburg</title>
+  <meta name="description" content="Finde Feuerwehr-Einsatzinformationen und WhatsApp-Kanäle in Brandenburg über die interaktive Wachalarm-Karte. Landkreis wählen, reinzoomen und passenden Kanal abonnieren.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://wachalarm.de/karte.html">
+  <meta property="og:title" content="Interaktive Wachalarm Karte – Feuerwehr WhatsApp Kanäle finden">
+  <meta property="og:description" content="Region auf der Karte auswählen und passende Einsatzinformationen per WhatsApp abonnieren.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wachalarm.de/karte.html">
+  <meta property="og:image" content="https://wachalarm.de/images/waw.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/images/waw.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="/assets/css/style.css?v=8">
+  <link rel="stylesheet" href="/assets/css/map.css?v=8">
+  <script defer src="/assets/js/includes.js?v=8"></script>
+</head>
+<body class="map-page map-page-v4 map-page-v8">
+  <div id="menu-placeholder"></div>
+
+  <main>
+    <section class="page-hero map-hero">
+      <div class="breadcrumbs"><a href="/index.html">Start</a> / Karte</div>
+      <span class="eyebrow">Interaktive Brandenburg-Karte</span>
+      <h1>Finde Einsatzinfos für deine Region.</h1>
+      <p class="lead">
+        Wähle einen Landkreis auf der Karte oder nutze die Suche nach Ort, Feuerwehr oder Landkreis. In aktiven Regionen zoomt die Karte direkt hinein und zeigt passende WhatsApp-Kanäle als Pins – vom Leitstellen- und Landkreis-Kanal bis zur Ortswehr. So findest du schnell den Kanal für deine Umgebung und kannst Einsatzinformationen direkt per WhatsApp abonnieren.
+      </p>
+    </section>
+
+    <section class="map-stage map-stage-v8" aria-label="Interaktive Wachalarm Karte">
+      <div class="finder-shell finder-shell-v8" id="wachalarm-map">
+        <div class="map-tools-v8">
+          <div class="panel-topline">
+            <span id="modeBadge" class="mode-badge-v4">Übersicht Brandenburg</span>
+            <button type="button" id="backBtn" class="back-btn-v4">Zurück zur Übersicht</button>
+          </div>
+
+          <div class="search-row-v8">
+            <label class="search-label" for="searchInput">Ort, Feuerwehr oder Landkreis suchen</label>
+            <input id="searchInput" class="search-box-v4" type="search" placeholder="z. B. Forst, Guben, Senftenberg …" autocomplete="off">
+            <p class="search-hint-v8">Die Suche springt automatisch zum passenden Pin, sobald der Ort oder Kanal gefunden wird.</p>
+          </div>
+
+          <div class="button-group-v4 region-buttons-v8" id="regionButtons" aria-label="Landkreise und Regionen"></div>
+
+          <div class="button-group-v4 type-filters-v4" id="typeFilters" aria-label="Kanaltypen filtern">
+            <button type="button" id="typeAll" class="active">Alle</button>
+            <button type="button" id="typeMain">Hauptkanal</button>
+            <button type="button" id="typeKommune">Amt/Gemeinde/Stadt</button>
+            <button type="button" id="typeOrtswehrEvi">Ortswehr mit EVI</button>
+            <button type="button" id="typeOrtswehrOhneEvi">Ortswehr ohne EVI</button>
+          </div>
+        </div>
+
+        <section class="map-card-v4 map-card-v8">
+          <div id="waMap" class="wa-map"></div>
+        </section>
+
+        <aside class="finder-panel-v4 finder-results-v8">
+          <div class="results-head-v8">
+            <div>
+              <span class="mini-label">Kanäle finden</span>
+              <h2 id="listTitle" class="panel-heading">Regionen</h2>
+            </div>
+            <div class="legend-v4" id="legendBox">
+              <span><i class="legend-dot-v4 dot-active"></i>farbige Fläche = aktive Region</span>
+              <span><i class="legend-dot-v4 dot-planned"></i>graue Fläche = geplant / im Aufbau</span>
+            </div>
+          </div>
+          <div class="channel-list-v4" id="channelList"></div>
+        </aside>
+      </div>
+    </section>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/assets/js/map.js?v=8"></script>
+</body>
+</html>
