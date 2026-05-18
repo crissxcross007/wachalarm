@@ -1,19 +1,8 @@
 [
   {
-    "name": "Wachalarm Nordwest",
-    "landkreis": "Ostprignitz-Ruppin",
-    "kommune": "Leitstelle Nordwest",
-    "ort": "Leitstelle Nordwest",
-    "typ": "Landkreis",
-    "eviAlarmierung": true,
-    "lat": 52.95,
-    "lng": 12.15,
-    "link": "https://whatsapp.com/channel/0029VbCyfZN35fLvfxdCKJ3G"
-  },
-  {
     "name": "Wachalarm Prignitz",
     "landkreis": "Prignitz",
-    "kommune": "Prignitz",
+    "kommune": "Landkreis Prignitz",
     "ort": "Landkreis Prignitz",
     "typ": "Landkreis",
     "eviAlarmierung": true,
