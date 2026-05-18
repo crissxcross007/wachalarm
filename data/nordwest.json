@@ -12,11 +12,12 @@
   {
     "name": "Wachalarm Prignitz",
     "landkreis": "Prignitz",
-    "region": "Prignitz",
-    "type": "hauptkanal",
-    "lat": 53.0750,
-    "lng": 11.8580,
-    "url": "https://whatsapp.com/channel/0029VbDEy0pGehETHpOZg00X",
-    "description": "Aktuelle Feuerwehreinsätze aus dem Landkreis Prignitz direkt per WhatsApp."
+    "kommune": "Prignitz",
+    "ort": "Landkreis Prignitz",
+    "typ": "Landkreis",
+    "eviAlarmierung": true,
+    "lat": 53.075,
+    "lng": 11.858,
+    "link": "https://whatsapp.com/channel/0029VbDEy0pGehETHpOZg00X"
   }
 ]
