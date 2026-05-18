@@ -14,7 +14,7 @@ const regionStatus = {
   "Oberhavel": "planned",
   "Ostprignitz-Ruppin": "planned",
   "Potsdam-Mittelmark": "planned",
-  "Prignitz": "planned",
+  "Prignitz": "active",
   "Teltow-Fläming": "planned",
   "Uckermark": "planned"
 };
@@ -29,7 +29,7 @@ const regionColors = {
   "Oberhavel": "#9ca3af",
   "Ostprignitz-Ruppin": "#9ca3af",
   "Potsdam-Mittelmark": "#9ca3af",
-  "Prignitz": "#9ca3af",
+  "Prignitz": "#f9a8d4",
   "Teltow-Fläming": "#9ca3af",
   "Uckermark": "#9ca3af"
 };
