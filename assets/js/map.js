@@ -183,7 +183,7 @@ async function loadChannelData() {
       console.warn("Externe EVI-Lausitz-Daten nicht erreichbar. Fallback wird genutzt.", error);
       return fallbackKanalOrte;
     }),
-    fetchJson(localWachalarmUrl).catch(() => [])
+    fetchJson(localWachalarmUrls).catch(() => [])
   ];
 
   const results = await Promise.all(sources);
