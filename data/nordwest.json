@@ -1,13 +1,14 @@
 [
   {
     "name": "Wachalarm Nordwest",
-    "landkreis": "Leitstelle Nordwest",
-    "region": "Nordwest",
-    "type": "hauptkanal",
-    "lat": 52.9500,
-    "lng": 12.1500,
-    "url": "https://whatsapp.com/channel/0029VbCyfZN35fLvfxdCKJ3G",
-    "description": "Aktuelle Feuerwehreinsätze aus dem Nordwesten Brandenburgs direkt per WhatsApp."
+    "landkreis": "Ostprignitz-Ruppin",
+    "kommune": "Leitstelle Nordwest",
+    "ort": "Leitstelle Nordwest",
+    "typ": "Landkreis",
+    "eviAlarmierung": true,
+    "lat": 52.95,
+    "lng": 12.15,
+    "link": "https://whatsapp.com/channel/0029VbCyfZN35fLvfxdCKJ3G"
   },
   {
     "name": "Wachalarm Prignitz",
