@@ -17,9 +17,9 @@ const regionStatus = {
   "Prignitz": "active",
   "Teltow-Fläming": "active",
   "Uckermark": "active",
-  "Havelland": "active",
-  "Potsdam": "active",
-  "Brandenburg an der Havel": "active"
+  "Havelland": "planned",
+  "Potsdam": "planned",
+  "Brandenburg an der Havel": "planned"
 };
 
 const regionColors = {
@@ -39,13 +39,13 @@ const regionColors = {
   "Oberhavel": "#48cae4",              // Cyan
   "Ostprignitz-Ruppin": "#4361ee",     // Blau
   "Prignitz": "#3a86ff",               // kräftiges Hellblau
-  "Havelland": "#00b4d8",
-  "Potsdam": "#7209b7",
+  "Havelland": "#9ca3af",              //planned
+  "Potsdam": "#9ca3af",                //planned
 
   // LEITSTELLE BRANDENBURG
   "Potsdam-Mittelmark": "#90be6d",     // Olivgrün
   "Teltow-Fläming": "#43aa8b",          // Türkisgrün
-  "Brandenburg an der Havel": "#f8961e",
+  "Brandenburg an der Havel": "#9ca3af", //planned
 };
 
 const externalLausitzUrl = "https://evilausitz.de/data/evi-kanalorte.json";
