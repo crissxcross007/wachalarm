@@ -25,13 +25,13 @@ const regionColors = {
   "Elbe-Elster": "#fca5a5",
   "Oberspreewald-Lausitz": "#c4b5fd",
   "Spree-Neiße": "#97c5fd",
-  "Barnim": "#b7e4c7",
+  "Barnim": "#e7c6ff",
   "Oberhavel": "#c4b5fd",
   "Ostprignitz-Ruppin": "#9ca3af",
   "Potsdam-Mittelmark": "#9ca3af",
   "Prignitz": "#f9a8d4",
   "Teltow-Fläming": "#9ca3af",
-  "Uckermark": "#b8d8ba"
+  "Uckermark": "#cdb4db"
 };
 
 const externalLausitzUrl = "https://evilausitz.de/data/evi-kanalorte.json";
