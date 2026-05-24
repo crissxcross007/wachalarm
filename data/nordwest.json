@@ -1,6 +1,6 @@
 [
   {
-    "name": "Wachalarm Prignitz",
+    "name": "EVI Prignitz (Einsatz Vor-Information)",
     "landkreis": "Prignitz",
     "kommune": "Landkreis Prignitz",
     "ort": "Landkreis Prignitz",
@@ -9,5 +9,27 @@
     "lat": 53.075,
     "lng": 11.858,
     "link": "https://whatsapp.com/channel/0029VbDEy0pGehETHpOZg00X"
-  }
+  },
+  {
+    "name": "EVI Ostprignitz-Ruppin (Einsatz Vor-Information)",
+    "landkreis": "Ostprignitz-Ruppin",
+    "kommune": "Landkreis Ostprignitz-Ruppin",
+    "ort": "Landkreis Ostprignitz-Ruppin",
+    "typ": "Landkreis",
+    "eviAlarmierung": true,
+    "lat": 53.001064,
+    "lng": 12.703367,
+    "link": "https://whatsapp.com/channel/0029Vb7RWSfElagu3wkr9R0j"
+  },
+  {
+    "name": "EVI Havelland (Einsatz Vor-Information)",
+    "landkreis": "Havelland",
+    "kommune": "Landkreis Havelland",
+    "ort": "Landkreis Ostprignitz-Ruppin",
+    "typ": "Landkreis",
+    "eviAlarmierung": true,
+    "lat": 52.742872,
+    "lng": 12.903309,
+    "link": "https://whatsapp.com/channel/xxx"
+  },
 ]
