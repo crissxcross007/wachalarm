@@ -21,4 +21,15 @@
     "lng": 13.677193,
     "link": "https://whatsapp.com/channel/0029VbD0mKA4Y9lew7BmO92i"
   }
+  {
+    "name": "EVI - Uckermark (Einsatz Vor-Information)",
+    "landkreis": "Uckermark",
+    "kommune": "Landkreis Uckermark",
+    "ort": "Landkreis Uckermark",
+    "typ": "Landkreis",
+    "eviAlarmierung": true,
+    "lat": 53.245263,
+    "lng": 13.915135,
+    "link": "https://whatsapp.com/channel/0029Vb8OTW52ER6oPKV8pl3k"
+  }
 ]
