@@ -12,11 +12,14 @@ const regionStatus = {
   "Spree-Neiße": "active",
   "Barnim": "active",
   "Oberhavel": "active",
-  "Ostprignitz-Ruppin": "planned",
-  "Potsdam-Mittelmark": "planned",
+  "Ostprignitz-Ruppin": "active",
+  "Potsdam-Mittelmark": "active",
   "Prignitz": "active",
-  "Teltow-Fläming": "planned",
-  "Uckermark": "active"
+  "Teltow-Fläming": "active",
+  "Uckermark": "active",
+  "Havelland": "active",
+  "Potsdam": "active",
+  "Brandenburg an der Havel": "active"
 };
 
 const regionColors = {
@@ -36,10 +39,13 @@ const regionColors = {
   "Oberhavel": "#48cae4",              // Cyan
   "Ostprignitz-Ruppin": "#4361ee",     // Blau
   "Prignitz": "#3a86ff",               // kräftiges Hellblau
+  "Havelland": "#00b4d8",
+  "Potsdam": "#7209b7",
 
   // LEITSTELLE BRANDENBURG
   "Potsdam-Mittelmark": "#90be6d",     // Olivgrün
   "Teltow-Fläming": "#43aa8b"          // Türkisgrün
+  "Brandenburg an der Havel": "#f8961e"
 };
 
 const externalLausitzUrl = "https://evilausitz.de/data/evi-kanalorte.json";
@@ -129,6 +135,9 @@ const regionSearchMap = {
   "Prignitz": ["prignitz"],
   "Teltow-Fläming": ["teltow flaeming", "teltow fläming"],
   "Uckermark": ["uckermark"]
+  "Havelland": ["havelland"],
+  "Potsdam": ["potsdam"],
+  "Brandenburg an der Havel": ["brandenburg an der havel", "brandenburg havel", "brandenburg"]
 };
 
 function detectRegionName(properties) {
