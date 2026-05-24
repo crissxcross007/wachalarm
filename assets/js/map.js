@@ -10,13 +10,13 @@ const regionStatus = {
   "Elbe-Elster": "active",
   "Oberspreewald-Lausitz": "active",
   "Spree-Neiße": "active",
-  "Barnim": "planned",
+  "Barnim": "active",
   "Oberhavel": "active",
   "Ostprignitz-Ruppin": "planned",
   "Potsdam-Mittelmark": "planned",
   "Prignitz": "active",
   "Teltow-Fläming": "planned",
-  "Uckermark": "planned"
+  "Uckermark": "active"
 };
 
 const regionColors = {
@@ -25,13 +25,13 @@ const regionColors = {
   "Elbe-Elster": "#fca5a5",
   "Oberspreewald-Lausitz": "#c4b5fd",
   "Spree-Neiße": "#97c5fd",
-  "Barnim": "#9ca3af",
+  "Barnim": "#b7e4c7",
   "Oberhavel": "#c4b5fd",
   "Ostprignitz-Ruppin": "#9ca3af",
   "Potsdam-Mittelmark": "#9ca3af",
   "Prignitz": "#f9a8d4",
   "Teltow-Fläming": "#9ca3af",
-  "Uckermark": "#9ca3af"
+  "Uckermark": "#b8d8ba"
 };
 
 const externalLausitzUrl = "https://evilausitz.de/data/evi-kanalorte.json";
