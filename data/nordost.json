@@ -1,6 +1,6 @@
 [
   {
-    "name": "Wachalarm Oberhavel",
+    "name": "EVI Oberhavel(Einsatz Vor-Information)",
     "landkreis": "Oberhavel",
     "kommune": "Landkreis Oberhavel",
     "ort": "Landkreis Oberhavel",
@@ -9,5 +9,16 @@
     "lat": 52.918881,
     "lng": 13.22798,
     "link": "https://whatsapp.com/channel/0029VbDKiYE6buMKHyccnF03"
+  }
+  {
+    "name": "EVI - Barnim (Einsatz Vor-Information)",
+    "landkreis": "Barnim",
+    "kommune": "Landkreis Barnim",
+    "ort": "Landkreis Barnim",
+    "typ": "Landkreis",
+    "eviAlarmierung": true,
+    "lat": 52.801932,
+    "lng": 13.677193,
+    "link": "https://whatsapp.com/channel/0029VbD0mKA4Y9lew7BmO92i"
   }
 ]
