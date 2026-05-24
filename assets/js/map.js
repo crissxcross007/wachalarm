@@ -20,18 +20,26 @@ const regionStatus = {
 };
 
 const regionColors = {
-  "Cottbus": "#fbd38d",
-  "Dahme-Spreewald": "#86efac",
-  "Elbe-Elster": "#fca5a5",
-  "Oberspreewald-Lausitz": "#c4b5fd",
-  "Spree-Neiße": "#97c5fd",
+
+  // LEITSTELLE LAUSITZ
+  "Cottbus": "#f7b267",
+  "Dahme-Spreewald": "#f79d65",
+  "Elbe-Elster": "#f4845f",
+  "Oberspreewald-Lausitz": "#f6bd60",
+  "Spree-Neiße": "#84a59d",
+
+  // LEITSTELLE NORDOST
   "Barnim": "#c77dff",
-  "Oberhavel": "#c4b5fd",
-  "Ostprignitz-Ruppin": "#9ca3af",
-  "Potsdam-Mittelmark": "#9ca3af",
-  "Prignitz": "#f9a8d4",
-  "Teltow-Fläming": "#9ca3af",
-  "Uckermark": "#9d4edd"
+  "Uckermark": "#9d4edd",
+
+  // LEITSTELLE NORDWEST
+  "Oberhavel": "#90caf9",
+  "Ostprignitz-Ruppin": "#64b5f6",
+  "Prignitz": "#42a5f5",
+
+  // LEITSTELLE BRANDENBURG
+  "Potsdam-Mittelmark": "#ddb892",
+  "Teltow-Fläming": "#e6b566"
 };
 
 const externalLausitzUrl = "https://evilausitz.de/data/evi-kanalorte.json";
