@@ -44,8 +44,8 @@ const regionColors = {
 
   // LEITSTELLE BRANDENBURG
   "Potsdam-Mittelmark": "#90be6d",     // Olivgrün
-  "Teltow-Fläming": "#43aa8b"          // Türkisgrün
-  "Brandenburg an der Havel": "#f8961e"
+  "Teltow-Fläming": "#43aa8b",          // Türkisgrün
+  "Brandenburg an der Havel": "#f8961e",
 };
 
 const externalLausitzUrl = "https://evilausitz.de/data/evi-kanalorte.json";
@@ -134,7 +134,7 @@ const regionSearchMap = {
   "Potsdam-Mittelmark": ["potsdam mittelmark"],
   "Prignitz": ["prignitz"],
   "Teltow-Fläming": ["teltow flaeming", "teltow fläming"],
-  "Uckermark": ["uckermark"]
+  "Uckermark": ["uckermark"],
   "Havelland": ["havelland"],
   "Potsdam": ["potsdam"],
   "Brandenburg an der Havel": ["brandenburg an der havel", "brandenburg havel", "brandenburg"]
