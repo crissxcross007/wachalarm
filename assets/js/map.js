@@ -22,24 +22,24 @@ const regionStatus = {
 const regionColors = {
 
   // LEITSTELLE LAUSITZ
-  "Cottbus": "#f7b267",
-  "Dahme-Spreewald": "#f79d65",
-  "Elbe-Elster": "#f4845f",
-  "Oberspreewald-Lausitz": "#f6bd60",
-  "Spree-Neiße": "#84a59d",
+  "Cottbus": "#ffb703",                 // kräftiges Goldgelb
+  "Dahme-Spreewald": "#fb8500",        // Orange
+  "Elbe-Elster": "#e76f51",            // Terracotta
+  "Oberspreewald-Lausitz": "#b388eb",  // Lavendel
+  "Spree-Neiße": "#4ea8de",            // kräftiges Himmelblau
 
   // LEITSTELLE NORDOST
-  "Barnim": "#c77dff",
-  "Uckermark": "#9d4edd",
+  "Barnim": "#ff70a6",                 // Pink
+  "Uckermark": "#9d4edd",              // kräftiges Violett
 
   // LEITSTELLE NORDWEST
-  "Oberhavel": "#90caf9",
-  "Ostprignitz-Ruppin": "#64b5f6",
-  "Prignitz": "#42a5f5",
+  "Oberhavel": "#48cae4",              // Cyan
+  "Ostprignitz-Ruppin": "#4361ee",     // Blau
+  "Prignitz": "#3a86ff",               // kräftiges Hellblau
 
   // LEITSTELLE BRANDENBURG
-  "Potsdam-Mittelmark": "#ddb892",
-  "Teltow-Fläming": "#e6b566"
+  "Potsdam-Mittelmark": "#90be6d",     // Olivgrün
+  "Teltow-Fläming": "#43aa8b"          // Türkisgrün
 };
 
 const externalLausitzUrl = "https://evilausitz.de/data/evi-kanalorte.json";
