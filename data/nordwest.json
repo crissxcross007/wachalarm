@@ -31,5 +31,16 @@
     "lat": 52.742872,
     "lng": 12.903309,
     "link": "https://whatsapp.com/channel/xxx"
-  }
+  },
+  {
+    "name": "EVI Potsdam (Einsatz Vor-Information)",
+    "landkreis": "Potsdam",
+    "kommune": "Landkreis Potsdam",
+    "ort": "Potsdam",
+    "typ": "Landkreis",
+    "eviAlarmierung": true,
+    "lat": 52.390569,
+    "lng": 13.064473,
+    "link": "https://whatsapp.com/channel/xxx"
+  }  
 ]
