@@ -1,0 +1,35 @@
+[
+  {
+    "name": "EVI Teltow-Fläming(Einsatz Vor-Information)",
+    "landkreis": "Teltow-Fläming",
+    "kommune": "Landkreis Teltow-Fläming",
+    "ort": "Landkreis Teltow-Fläming",
+    "typ": "Landkreis",
+    "eviAlarmierung": true,
+    "lat": 52.101027,
+    "lng": 13.265266,
+    "link": "https://whatsapp.com/channel/0029VbClToa3AzNX6ceV7R0I"
+  },
+  {
+    "name": "EVI - Potsdam-Mittelmark (Einsatz Vor-Information)",
+    "landkreis": "Potsdam-Mittelmark",
+    "kommune": "Landkreis Potsdam-Mittelmark",
+    "ort": "Landkreis Potsdam-Mittelmark",
+    "typ": "Landkreis",
+    "eviAlarmierung": true,
+    "lat": 52.268299,
+    "lng": 12.70136,
+    "link": "https://whatsapp.com/channel/0029VbCxGnt0G0Xcirxffk3I"
+  },
+  {
+    "name": "EVI - Brandenburg an d. Havel (Einsatz Vor-Information)",
+    "landkreis": "Brandenburg an d. Havel",
+    "kommune": "Brandenburg an d. Havel",
+    "ort": "Brandenburg an d. Havel",
+    "typ": "Landkreis",
+    "eviAlarmierung": true,
+"lat": 52.412457,
+"lng": 12.531644
+    "link": "https://whatsapp.com/channel/xxx"
+  }
+]
