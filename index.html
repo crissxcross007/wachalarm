@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Wachalarm Brandenburg – Feuerwehreinsätze aktuell per WhatsApp</title>
+
+  <meta name="description" content="Wachalarm zeigt Feuerwehr-Einsatzinformationen aus Brandenburg. Region auswählen, WhatsApp-Kanal abonnieren und aktuelle Feuerwehreinsätze anonym erhalten.">
+
+  <meta name="robots" content="index,follow">
+
+  <link rel="canonical" href="https://wachalarm.de/">
+
+  <meta property="og:title" content="Wachalarm Brandenburg – Feuerwehreinsätze aktuell per WhatsApp">
+  <meta property="og:description" content="Regionale Feuerwehr-Einsatzinformationen direkt per WhatsApp: anonym, kostenlos und nach Landkreis filterbar.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wachalarm.de/">
+  <meta property="og:image" content="https://wachalarm.de/images/waw.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/images/waw.png">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <script defer src="/assets/js/includes.js"></script>
+
+  <style>
+    /* =========================
+       WhatsApp Preview Section
+    ========================= */
+
+    .preview-section {
+      padding-top: 40px;
+    }
+
+    .preview-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 420px;
+      gap: 56px;
+      align-items: center;
+    }
+
+    .preview-phone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .preview-phone img {
+      width: 100%;
+      max-width: 340px;
+      height: auto;
+      display: block;
+      filter: drop-shadow(0 30px 60px rgba(0,0,0,.18));
+      transition: transform .25s ease;
+    }
+
+    .preview-phone img:hover {
+      transform: translateY(-4px);
+    }
+
+    .preview-text h2 {
+      margin-bottom: 18px;
+    }
+
+    @media (max-width: 980px) {
+      .preview-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        text-align: center;
+      }
+
+      .preview-phone {
+        order: -1;
+      }
+
+      .preview-phone img {
+        max-width: 260px;
+      }
+
+      .preview-text .actions {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="menu-placeholder"></div>
+
+  <main>
+
+    <section class="hero">
+      <div class="wrap">
+
+        <div>
+          <span class="eyebrow">Der Push kommt vor dem Blaulicht</span>
+
+          <h1>
+            Feuerwehreinsätze in deiner Region – in Echtzeit per WhatsApp.
+          </h1>
+
+          <p class="lead">
+            Wachalarm bringt aktuelle Feuerwehr-Einsatzinformationen schnell und verständlich aufs Smartphone.
+            Wähle zuerst deinen Leitstellenbereich für den großen Überblick – oder finde über Karte und Landkreis
+            direkt den passenden regionalen WhatsApp-Kanal.
+          </p>
+
+          <div class="actions">
+            <a class="btn primary" href="/karte.html">
+              Passenden Einsatzkanal für deine Region finden
+            </a>
+          </div>
+
+          <div class="trust">
+            <div><span class="trust-icon">✓</span> anonym folgen</div>
+            <div><span class="trust-icon">✓</span> kostenlos nutzen</div>
+            <div><span class="trust-icon">✓</span> regional auswählen</div>
+          </div>
+        </div>
+
+        <div class="map-card control-centers-card">
+
+          <div class="map-head">
+            <strong>EVI-Leitstellenbereiche</strong>
+            <span class="pill">großer Überblick</span>
+          </div>
+
+          <div class="control-grid">
+
+            <article class="control-tile">
+              <a class="tile-main" href="/leitstellen/brandenburg-potsdam.html">
+                <span class="control-label">Leitstelle Brandenburg a.d. Havel</span>
+                <b>Brandenburg</b>
+                <small>
+                  Brandenburg an der Havel · Potsdam-Mittelmark · Teltow-Fläming
+                </small>
+              </a>
+
+              <div class="tile-actions">
+                <a class="tile-cta"
+                   href="https://whatsapp.com/channel/0029Vb7nrgVG8l5DR01COS2c"
+                   target="_blank"
+                   rel="noopener">
+                  Jetzt abonnieren
+                </a>
+              </div>
+            </article>
+
+            <article class="control-tile featured">
+              <a class="tile-main" href="/leitstellen/lausitz.html">
+                <span class="control-label">Leitstelle Cottbus</span>
+                <b>Lausitz</b>
+                <small>
+                  Cottbus · Dahme-Spreewald · Elbe-Elster · Oberspreewald-Lausitz · Spree-Neiße
+                </small>
+              </a>
+
+              <div class="tile-actions">
+                <a class="tile-cta"
+                   href="https://whatsapp.com/channel/0029Vabqtxa1noz5MgOe7L0D"
+                   target="_blank"
+                   rel="noopener">
+                  Jetzt abonnieren
+                </a>
+              </div>
+            </article>
+
+            <article class="control-tile">
+              <a class="tile-main" href="/leitstellen/nordost.html">
+                <span class="control-label">Leitstelle Eberswalde</span>
+                <b>Nordost</b>
+                <small>
+                  Barnim · Oberhavel · Uckermark
+                </small>
+              </a>
+
+              <div class="tile-actions">
+                <a class="tile-cta"
+                   href="#"
+                   target="_blank"
+                   rel="noopener">
+                  Bald verfügbar
+                </a>
+              </div>
+            </article>
+
+            <article class="control-tile">
+              <a class="tile-main" href="/leitstellen/nordwest.html">
+                <span class="control-label">Leitstelle Potsdam</span>
+                <b>Nordwest</b>
+                <small>
+                  Potsdam · Havelland · Ostprignitz-Ruppin · Prignitz
+                </small>
+              </a>
+
+              <div class="tile-actions">
+                <a class="tile-cta"
+                   href="https://whatsapp.com/channel/0029VbCyfZN35fLvfxdCKJ3G"
+                   target="_blank"
+                   rel="noopener">
+                  Jetzt abonnieren
+                </a>
+              </div>
+            </article>
+
+          </div>
+
+          <p class="small">
+            Starte mit dem großen Leitstellen-Kanal für den Überblick.
+            Wenn du es genauer möchtest, wählst du zusätzlich deinen Landkreis,
+            deine Stadt oder später einzelne Feuerwehrkanäle aus.
+          </p>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================
+         WHATSAPP PREVIEW
+    ========================== -->
+
+    <section class="section preview-section">
+
+      <div class="inner preview-grid">
+
+        <div class="preview-text">
+
+          <span class="eyebrow">
+            So sehen Einsatzinfos bei Wachalarm aus
+          </span>
+
+          <h2>
+            Klare Einsatzinfos statt Gerüchte.
+          </h2>
+
+          <p class="lead">
+            Wachalarm zeigt dir aktuelle Feuerwehr-Einsätze verständlich und übersichtlich:
+            Einsatzstichwort, Ort, Uhrzeit und alarmierte Einheiten –
+            direkt im passenden WhatsApp-Kanal für deine Region.
+          </p>
+
+          <p>
+            Ob Landkreis, Stadt, Amt oder Ortswehr:
+            Du abonnierst nur die Einsatzinformationen,
+            die für dich wirklich relevant sind.
+          </p>
+
+          <div class="actions">
+            <a class="btn primary" href="/karte.html">
+              WhatsApp-Kanal finden
+            </a>
+          </div>
+
+        </div>
+
+        <div class="preview-phone">
+          <img
+            src="/img/whatsapp-sneakpeek-lausitz.jpeg"
+            alt="Vorschau eines Wachalarm WhatsApp-Kanals mit Feuerwehreinsätzen">
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="section">
+
+      <h2>
+        Eine Plattform. Drei Ebenen. Ein Ziel:
+        schnell die passenden Einsatzinfos finden.
+      </h2>
+
+      <p class="lead">
+        Wachalarm sortiert Feuerwehrmeldungen so,
+        wie Menschen vor Ort danach suchen:
+        erst der große Überblick nach Leitstelle,
+        dann der eigene Landkreis und danach die lokale Nähe
+        über Stadt, Kommune oder Ortswehr.
+      </p>
+
+      <div class="cards">
+
+        <div class="card">
+          <div class="icon">⌖</div>
+
+          <h3>Leitstelle auswählen</h3>
+
+          <p>
+            Folge dem Hauptkanal deiner Region,
+            wenn du alle Feuerwehr-Einsatzinformationen
+            aus dem Leitstellenbereich im Blick behalten möchtest.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon">◉</div>
+
+          <h3>Landkreis eingrenzen</h3>
+
+          <p>
+            Wähle deinen Landkreis,
+            damit die Meldungen regionaler werden
+            und du nicht alle Einsätze aus ganz Brandenburg verfolgen musst.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="icon">⚡</div>
+
+          <h3>Lokal informiert bleiben</h3>
+
+          <p>
+            Über die Karte findest du später auch Kanäle
+            für Städte, Gemeinden und Ortswehren –
+            genau dort, wo dich Einsätze wirklich interessieren.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section alt">
+
+      <div class="inner split">
+
+        <div>
+
+          <span class="eyebrow">
+            WhatsApp-Kanäle nach Landkreis
+          </span>
+
+          <h2>
+            Mehr Nähe, weniger Meldungen, bessere Übersicht.
+          </h2>
+
+          <p>
+            Ein großer Leitstellen-Kanal ist gut für den Überblick.
+            Für den Alltag sind Landkreis-Kanäle oft praktischer:
+            Du bekommst Einsatzinformationen aus deiner Region,
+            ohne ständig Meldungen aus weit entfernten Orten lesen zu müssen.
+          </p>
+
+          <p>
+            Genau deshalb ist Wachalarm mehrstufig aufgebaut:
+            Leitstelle für den Überblick,
+            Landkreis für die regionale Auswahl
+            und Karte für den schnellen Weg zum passenden lokalen Kanal.
+          </p>
+
+        </div>
+
+        <div class="list">
+
+          <a href="/landkreise/barnim.html">
+            <span>Feuerwehreinsätze Barnim</span>
+            <span>→</span>
+          </a>
+
+          <a href="/landkreise/cottbus.html">
+            <span>Feuerwehreinsätze Cottbus</span>
+            <span>→</span>
+          </a>
+
+          <a href="/landkreise/dahme-spreewald.html">
+            <span>Feuerwehreinsätze Dahme-Spreewald</span>
+            <span>→</span>
+          </a>
+
+          <a href="/landkreise/elbe-elster.html">
+            <span>Feuerwehreinsätze Elbe-Elster</span>
+            <span>→</span>
+          </a>
+
+          <a href="/landkreise/oberhavel.html">
+            <span>Feuerwehreinsätze Oberhavel</span>
+            <span>→</span>
+          </a>
+
+          <a href="/landkreise/oberspreewald-lausitz.html">
+            <span>Feuerwehreinsätze Oberspreewald-Lausitz</span>
+            <span>→</span>
+          </a>
+
+          <a href="/landkreise/ostprignitz-ruppin.html">
+            <span>Feuerwehreinsätze Ostprignitz-Ruppin</span>
+            <span>→</span>
+          </a>
+
+          <a href="/landkreise/potsdam-mittelmark.html">
+            <span>Feuerwehreinsätze Potsdam-Mittelmark</span>
+            <span>→</span>
+          </a>
+
+          <a href="/landkreise/prignitz.html">
+            <span>Feuerwehreinsätze Prignitz</span>
+            <span>→</span>
+          </a>
+
+          <a href="/landkreise/spree-neisse.html">
+            <span>Feuerwehreinsätze Spree-Neiße</span>
+            <span>→</span>
+          </a>
+
+          <a href="/landkreise/teltow-flaeming.html">
+            <span>Feuerwehreinsätze Teltow-Fläming</span>
+            <span>→</span>
+          </a>
+
+          <a href="/landkreise/uckermark.html">
+            <span>Feuerwehreinsätze Uckermark</span>
+            <span>→</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="section">
+
+      <div class="cta">
+
+        <div>
+          <h2>
+            Welche Einsatzinfos passen zu deiner Region?
+          </h2>
+
+          <p>
+            Öffne die Karte, wähle deinen Landkreis
+            und finde den passenden Einsatz-Info-WhatsApp-Kanal.
+          </p>
+        </div>
+
+        <a class="btn primary" href="/karte.html">
+          Regionalen Einsatzkanal finden
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+</body>
+</html>
